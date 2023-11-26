@@ -7,7 +7,9 @@
     </ul>
 
 -   Module Required
-    1) mysql-connector
+    <ul>
+        <li>mysql-connector</li>
+    </ul>
 
 # Installation of (mysql-connector)
     pip install mysql-connector
