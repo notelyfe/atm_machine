@@ -1,6 +1,7 @@
 import mysql.connector
 
 # global variable for sql connection
+# please change host, user and password accordingly, only then it will run into your system.
 sql_attributes = {
     "host": "localhost", 
     "user": "root", 

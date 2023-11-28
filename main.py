@@ -32,7 +32,7 @@ if customer_data != None:
     customer_data = list(customer_data)    # converting the fetched data from tuple to list.
     ch = input(f"Hello! {customer_data[0]} please select one [w, d, c] for [withdrawl, deposit, check balance] : ")[0]
 
-    # asking user whether he/she want to withdraw cash, deposit cash or just want ot check the balance
+    # asking user whether he/she want to withdraw cash, deposit cash or just want to check the balance
     while ch.lower() != "w" and ch.lower() != "d" and ch.lower() != "c":
         print("Invalid input, Please try again")
         ch = input("please select one [w, d, c] for [withdrawl, deposit, check balance] : ")[0]
@@ -49,6 +49,6 @@ else:
     print(f"No account found!! with account number : {account_number}") 
     ch = input("Press c to Open a new account or press e to exit : ")[0]
     if ch == 'c':
-        create_account()      # calling create_account function for creatng a new account
+        create_account()      # calling create_account function for creating a new account
     else:
         print("Exit...")
